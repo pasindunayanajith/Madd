@@ -1,0 +1,273 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+   android:background="@drawable/back"
+    android:layout_height="match_parent"
+    tools:context=".Home">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+    >
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="176dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="32dp"
+            android:layout_marginRight="20dp">
+
+            <TextView
+                android:id="@+id/txtdashbord"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="DashBoard"
+                android:textColor="#FFF"
+                android:textSize="30sp"
+
+                android:textStyle="bold" />
+
+            <ImageView
+                android:layout_width="82dp"
+                android:layout_height="82dp"
+                android:layout_alignParentRight="true"
+                android:src="@drawable/per"
+/>
+
+
+        </RelativeLayout>
+
+        <GridLayout
+
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:alignmentMode="alignMargins"
+            android:background="#3D4DA8"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="2">
+
+            <androidx.cardview.widget.CardView
+
+
+                android:id="@+id/btn1"
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="30dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:id="@+id/btn1"
+                    android:layout_width="377dp"
+                    android:layout_height="185dp"
+                    android:background="#2196F3"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="26dp">
+
+                    <ImageView
+                        android:layout_width="72dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/account"
+                        app:srcCompat="@drawable/account" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Student"
+                        android:textColor="#000"
+                        android:textSize="30sp" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+
+                android:id="@+id/btn2"
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="30dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:id="@+id/btn2"
+                    android:layout_width="377dp"
+                    android:layout_height="185dp"
+                    android:background="#03A9F4"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="26dp">
+
+                    <ImageView
+                        android:layout_width="72dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/account"
+                        app:srcCompat="@drawable/account" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Lecture"
+                        android:textColor="#000"
+                        android:textSize="30sp" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+
+                android:id="@+id/btn3"
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="30dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:id="@+id/btn3"
+                    android:layout_width="377dp"
+                    android:layout_height="185dp"
+                    android:background="#2196F3"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="26dp">
+
+                    <ImageView
+                        android:layout_width="72dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/account"
+                        app:srcCompat="@drawable/account" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Supplier"
+                        android:textColor="#000"
+                        android:textSize="30sp" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+
+                android:id="@+id/btn4"
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="30dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="185dp"
+                    android:background="#2196F3"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="26dp">
+
+                    <ImageView
+                        android:layout_width="72dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/account"
+                        app:srcCompat="@drawable/account" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Student Manager"
+                        android:textColor="#000"
+                        android:textSize="30sp" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+
+
+                android:id="@+id/btn5"
+                android:layout_width="39dp"
+                android:layout_height="wrap_content"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_margin="30dp"
+                app:cardCornerRadius="12dp"
+                app:cardElevation="6dp">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:background="#2196F3"
+                    android:gravity="center"
+                    android:orientation="vertical"
+                    android:padding="26dp">
+
+                    <ImageView
+                        android:layout_width="72dp"
+                        android:layout_height="90dp"
+                        android:src="@drawable/account"
+                        app:srcCompat="@drawable/account" />
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="12dp"
+                        android:text="Admin"
+                        android:textColor="#000"
+                        android:textSize="30sp" />
+
+
+                </LinearLayout>
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+
+    </LinearLayout>
+
+
+
+
+
+
+
+
+
+
+</ScrollView>
+
+
+
+
+
+
+
+
+
+
+
+

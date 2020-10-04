@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <item name="txtname" type="id" />
+    <item name="logoutMenu" type="id" />
+    <item name="profileMenu" type="id" />
+    <item name="txtisbn" type="id" />
+    <item name="txtshop" type="id" />
+    <item name="namel" type="id" />
+    <item name="agel" type="id" />
+    <item name="emaill" type="id" />
+    <item name="phonel" type="id" />
+    <item name="nicl" type="id" />
+    <item name="names" type="id" />
+    <item name="ages" type="id" />
+    <item name="emails" type="id" />
+    <item name="phones" type="id" />
+    <item name="nics" type="id" />
+    <item name="passwords" type="id" />
+    <item name="txtlpassword" type="id" />
+    <item name="txtlemail" type="id" />
+    <item name="txtlphone" type="id" />
+    <item name="txtlnic" type="id" />
+    <item name="txtlage" type="id" />
+    <item name="passwordl" type="id" />
+    <item name="etName" type="id" />
+    <item name="etpassword" type="id" />
+    <item name="modulekey" type="id" />
+    <item name="rbc" type="id" />
+    <item name="txtothor" type="id" />
+    <item name="txtprice" type="id" />
+    <item name="othor" type="id" />
+    <item name="age" type="id" />
+    <item name="phone" type="id" />
+    <item name="nic" type="id" />
+    <item name="txtmname" type="id" />
+    <item name="txtmpassword" type="id" />
+    <item name="txtmemail" type="id" />
+    <item name="txtmage" type="id" />
+    <item name="txtmphone" type="id" />
+    <item name="txtmnic" type="id" />
+    <item name="txtemail" type="id" />
+    <item name="main_text2" type="id" />
+    <item name="btn1" type="id" />
+    <item name="txtphone" type="id" />
+    <item name="txtnic" type="id" />
+</resources>

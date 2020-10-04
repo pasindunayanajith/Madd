@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <TextView
+        android:background="@color/colorPrimary"
+        android:padding="12dp"
+        android:layout_width="match_parent"
+        android:layout_height="56dp"
+        android:text="Update"
+        android:textSize="24dp"
+        android:textColor="#ffffff"
+        android:textStyle="bold"
+
+        />
+    <EditText
+        android:id="@+id/txtmodulekey"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Isbn"
+        android:textColor="#151414"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtname"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Book Name"
+        android:textColor="#151414"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/txtrcb"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:hint="Reference Book Criteria"
+        android:textColor="#151414"
+        android:textSize="18dp"
+        android:textStyle="bold" />
+
+    <Button
+        android:id="@+id/update"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp"
+        android:background="@color/fui_bgGitHub"
+        android:text="Update"
+        android:textColor="@color/common_google_signin_btn_text_dark_default"
+        android:textSize="18dp"
+
+        android:textStyle="bold" />
+</LinearLayout>
